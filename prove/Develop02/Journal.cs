@@ -2,7 +2,7 @@ using System.Security.Cryptography;
 using System.IO;
 
 public class Journal {
-    public List<Entry> entries = new List<Entry>();
+    private List<Entry> entries = new List<Entry>();
     public string filename = default;
     public List<string> prompts = new List<string>();
     
